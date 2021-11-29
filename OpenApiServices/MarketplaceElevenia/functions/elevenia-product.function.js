@@ -552,6 +552,7 @@ exports.getProductAttributeListByParentCategory = async (req_body_origin) => {
 
         let generate_template_json = []
         let dataResult
+        let result_json = {}
         if (req_body.dispCtgrNo) {
 
 
@@ -567,7 +568,7 @@ exports.getProductAttributeListByParentCategory = async (req_body_origin) => {
 
             // =================================== CONVERT JSON
 
-            let result_json = {}
+           
             result_json = JSON.parse(
                 convertXML2JSON.xml2json(dataResult.data
                     ,

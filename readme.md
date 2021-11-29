@@ -26,10 +26,6 @@ nest --version
 ## 3. ExpressJs API ENV (OpenApiServices/MarketplaceElevenia)
 
 ```bash
-DB_PASSWORD='masuk123'
-DB='EKI_INDRADI'
-DB_HOST='127.0.0.1'
-DB_PORT='27017'
 
 TEST_HOST='http://api.elevenia.co.id/rest'
 TEST_API_KEY='721407f393e84a28593374cc2b347a98'
@@ -91,6 +87,18 @@ SELF PROJECT - ELEVENIA - EXPRESS API  ONLY.postman_collection
 ```bash
 http://localhost:3001/product-api-docs
 ```
+
+## EKI NOTE :
+
+api elevenia bermasalah , hanya bisa menggunakan get request saja
+untuk manipulasi data api nya bermasalah, parameter sudah mengikuti request XML Post yang di wajibkan dan seluruh paramter
+dari dokumentasi tetapi masih bermasalah (lihat pada testing video api elevenia)
+
+kemungkinan karena dokumentasi tahun 2015 ( tidak update ) , dan mungkin juga karena API_KEY
+belum mendapatkan izin dari pihak elevenia untuk proses manipulasi data baik itu order/product
+
+get request order tidak dibuat api karena datanya kosong ( lihat pada testing elevenia api dan express api
+
 
 ## EKI INDRADI
 

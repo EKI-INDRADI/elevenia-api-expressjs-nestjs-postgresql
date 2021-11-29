@@ -54,7 +54,6 @@ export class ProductService extends PageService {
   //=================== MANUAL QUERY
 
   async Getproduct(req_body: any) {
-    console.log(req_body)
 
     let res_json: any = {}
 
@@ -103,7 +102,7 @@ export class ProductService extends PageService {
       res_json.total = result_count.length
 
       if (req_body.limit) {
-        res_json.page = Math.ceil(req_body.skip / req_body.limit)
+        res_json.page = Math.ceil(req_body.skip / req_body.limit) + 1
         res_json.pages = Math.ceil(result_count.length / req_body.limit)
       }
     }
