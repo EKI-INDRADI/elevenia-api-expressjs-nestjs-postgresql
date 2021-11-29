@@ -1,0 +1,26 @@
+<?xml Version="1.0" encoding="UTF-8"?> 
+<Product> 
+ <selMnbdNckNm>EKI INRADI TESTING</selMnbdNckNm>
+  <selMthdCd>01</selMthdCd>
+  <dispCtgrNo>3812</dispCtgrNo>
+  <ProductCtgrAttribute>
+    <prdAttrCd>2000005</prdAttrCd>
+    <prdAttrNm>EKI TESTING</prdAttrNm>
+    <prdAttrNo>172259</prdAttrNo>
+    <prdAttrVal>EKI TESTING Value</prdAttrVal>
+  </ProductCtgrAttribute>
+  <prdNm>EKI TESTING - Do Not Buy This Items</prdNm>
+  <prdStatCd>01</prdStatCd>
+  <prdWght>2</prdWght>
+  <dlvGrntYn>N</dlvGrntYn>
+  <minorSelCnYn>Y</minorSelCnYn>
+  <suplDtyfrPrdClfCd>01</suplDtyfrPrdClfCd>
+  <prdImage01><![CDATA[http://soffice.11st.co.kr/img/layout/logo.gif]]></prdImage01>
+  <htmlDetail><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar vestibulum diem elementum tempus.</p>]]></htmlDetail>
+  <selPrc>5000</selPrc>
+  <prdSelQty>10</prdSelQty>
+  <asDetail>Sorry. No after sales service for this product.</asDetail>
+  <rtngExchDetail>Exchange Returns Information 070-7400-3719</rtngExchDetail>
+</Product> 
+ 
+ 

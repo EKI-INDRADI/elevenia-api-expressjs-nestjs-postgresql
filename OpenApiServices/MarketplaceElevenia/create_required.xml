@@ -1,0 +1,25 @@
+<?xml Version="1.0" encoding="UTF-8"?> 
+<Product> 
+<selMnbdNckNm>EKI INRADI TESTING</selMnbdNckNm>
+<selMthdCd>01</selMthdCd> 
+<dispCtgrNo>53</dispCtgrNo> 
+<ProductCtgrAttribute> 
+<prdAttrCd>2000042</prdAttrCd> 
+<prdAttrNm>Neck Style</prdAttrNm> 
+<prdAttrNo>161075</prdAttrNo> 
+<prdAttrVa>Neck style Value</prdAttrVa> 
+</ProductCtgrAttribute> 
+<prdNm>Test Product - Do Not Buy This Items</prdNm> 
+<prdStatCd>01</prdStatCd> 
+<prdWght>Y</prdWght>
+<dlvGrntYn>Y</dlvGrntYn>
+<minorSelCnYn>Y</minorSelCnYn> 
+<suplDtyfrPrdClfCd>01</suplDtyfrPrdClfCd> 
+<prdImage01> <![CDATA[http://soffice.11st.co.kr/img/layout/logo.gif]]> </prdImage01> 
+<htmlDetail> <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar vestibulum diem elementum tempus.</p>]]> </htmlDetail> 
+<selPrc>5000</selPrc>
+<prdSelQty>5000</prdSelQty>
+<asDetail>Sorry. No after sales service for this product.</asDetail> 
+<rtngExchDetail>Exchange Returns Information 070-7400-3719</rtngExchDetail> 
+</Product> 
+ // dokumentasi ada typo sebelumnya prdAttrVal harusnya  "prdAttrVall"

@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "f2e5e228-521f-464e-adfe-0e03c1195cb1",
+		"name": "SELF PROJECT - ELEVENIA - EXPRESS API  ONLY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BE elevenia/get-openapikey",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-openapikey",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-openapikey"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-product-list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"page\" :1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-product-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-product-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-product-list-all",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-product-list-all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-product-list-all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-product-detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"prdNo\" : 25556401\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-product-detail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-product-detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-product-category-list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-product-category-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-product-category-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-product-category-list-by-parent-category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dispCtgrNo\" : 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-product-category-list-by-parent-category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-product-category-list-by-parent-category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-product-attribute-category-list-by-parent-category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dispCtgrNo\" : 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-product-attribute-list-by-parent-category",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-product-attribute-list-by-parent-category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE create-product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"selMnbdNckNm\": \"EKI INRADI TESTING\",\r\n  \"selMthdCd\": \"01\",\r\n  \"dispCtgrNo\": 3812,\r\n  \"ProductCtgrAttribute\": {\r\n    \"prdAttrCd\": 2000005,\r\n    \"prdAttrNm\": \"EKI TESTING\",\r\n    \"prdAttrNo\": 172259,\r\n    \"prdAttrVal\": \"EKI TESTING Value\"\r\n  },\r\n  \"prdNm\": \"EKI TESTING - Do Not Buy This Items\",\r\n  \"prdStatCd\": \"01\",\r\n  \"prdWght\": 2,\r\n  \"dlvGrntYn\": \"N\",\r\n  \"minorSelCnYn\": \"Y\",\r\n  \"suplDtyfrPrdClfCd\": \"01\",\r\n  \"prdImage01\": \"<![CDATA[http://soffice.11st.co.kr/img/layout/logo.gif]]>\",\r\n  \"htmlDetail\": \"<![CDATA[<p>TEST DETAIL</p>]]>\",\r\n  \"selPrc\" : 5000,\r\n  \"prdSelQty\" : 10,\r\n  \"asDetail\": \"Sorry. No after sales service for this product.\",\r\n  \"rtngExchDetail\": \"Exchange Returns Information 070-7400-3719\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/create-product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"create-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BE get-order-list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ordStat\" : \"202\",\r\n  \"dateForm\": \"2017-11-01T07:00:00.000Z\",\r\n  \"dateTo\":\"2021-11-01T07:00:00.000Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3200/elevenia/get-order-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"elevenia",
+						"get-order-list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

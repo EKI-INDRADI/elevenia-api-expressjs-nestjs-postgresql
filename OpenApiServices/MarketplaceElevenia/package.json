@@ -1,0 +1,29 @@
+{
+  "name": "eki-20211127-openapi-services-marketplace-elevenia",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js --ext js",
+    "start:nodemon": "set MODE='LIVE' && nodemon app.js --ext js",
+    "start:test": "set MODE='TEST' && nodemon app.js --ext js",
+    "start:live": "set MODE='LIVE' && nodemon app.js --ext js"
+  },
+  "author": {
+    "name": "EKI INDRADI"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^5.10.7",
+    "morgan": "~1.9.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

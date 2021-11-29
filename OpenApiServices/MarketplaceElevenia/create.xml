@@ -1,0 +1,46 @@
+<?xml Version="1.0" encoding="UTF-8"?> 
+<Product> 
+<selMthdCd>01</selMthdCd> 
+<dispCtgrNo>53</dispCtgrNo> 
+<ProductCtgrAttribute> 
+<prdAttrCd>2000042</prdAttrCd> 
+<prdAttrNm>Neck Style</prdAttrNm> 
+<prdAttrNo>161075</prdAttrNo> 
+<prdAttrVal>Neck style Value</prdAttrVal> 
+</ProductCtgrAttribute> 
+<ProductCtgrAttribute> 
+<prdAttrCd>2000017</prdAttrCd> 
+<prdAttrNm>Fabric</prdAttrNm> 
+<prdAttrNo>161074</prdAttrNo> 
+<prdAttrVal>Fabric Value</prdAttrVal> 
+</ProductCtgrAttribute> 
+<prdNm>Test Product - Do Not Buy This Items</prdNm> 
+<advrtStmt>Hot Items Of The Month !!</advrtStmt> 
+<orgnTypCd>03</orgnTypCd> 
+<orgnNmVal>Other: China</orgnNmVal> 
+<sellerPrdCd>SKU-00001</sellerPrdCd> 
+<suplDtyfrPrdClfCd>01</suplDtyfrPrdClfCd> 
+<prdStatCd>01</prdStatCd> 
+<minorSelCnYn>Y</minorSelCnYn> 
+<prdImage01> <![CDATA[http://soffice.11st.co.kr/img/layout/logo.gif]]> </prdImage01> 
+<htmlDetail> <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar vestibulum diem elementum tempus.</p>]]> </htmlDetail> 
+<selTermUseYn>N</selTermUseYn> 
+<selPrc>50000</selPrc> 
+<prdSelOty>150</prdSelOty> 
+<d1vCnAreaCd>01</d1vCnAreaCd> 
+<spplWyCd>01</spplNyCd> 
+<d1vCstInstBasiCd>03</d1vCstInstBasiCd> 
+<d1vCstl>2500</d1vCstl> 
+<PrdFrD1vBasiAmt>50000</PrdFrD1vBasiAmt> 
+<d1vCstPayTypCd>01</d1vCstPayTyped> 
+<addrSeqOut>4</addrSeqOut> 
+<addrSeqln>8</addrSeqln> 
+<rtngdDlvCst>2500</rtngdOlvCst> 
+<exchD1vCst>6000</exchDlvCst> 
+<asDetail>Sorry. No after sales service for this product.</asDetail> 
+<rtngExchDetail>Exchange Returns Information 070-7400-3719</rtngExchDetail> 
+<company>Testing Manufacturer</company> 
+<brand>Testing Brand</brand> 
+<modelft>Testing Model</modelNm> 
+<prcCmpExpYn>Y</prcCmpExpYn> 
+</Product> 

@@ -1,0 +1,363 @@
+{
+	"info": {
+		"_postman_id": "a1046fe5-4e8a-4bb4-9d51-0907575ff82b",
+		"name": "SELF PROJECT - ELEVENIA -  ELEVENIA API ONLY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ELEVENIA rest/prodservices/product/listing",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/prodservices/product/listing?page=5",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"prodservices",
+						"product",
+						"listing"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA rest/prodservices/product/details/29325975",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/prodservices/product/details/25556401",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"prodservices",
+						"product",
+						"details",
+						"25556401"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA rest/cateservice/category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/cateservice/category",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"cateservice",
+						"category"
+					],
+					"query": [
+						{
+							"key": "openapikey",
+							"value": "721407f393e84a28593374cc2b347a98",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA rest/cateservice/category/100",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/cateservice/category/100",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"cateservice",
+						"category",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA rest/cateservice/categoryAttributes/100",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/cateservice/categoryAttributes/100",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"cateservice",
+						"categoryAttributes",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA rest/prodservices/product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml Version=\"1.0\" encoding=\"UTF-8\" ?> \r\n<Product> \r\n<selMnbdNckNm>EKI INRADI TESTING</selMnbdNckNm>\r\n<selMthdCd>01</selMthdCd> \r\n<dispCtgrNo>53</dispCtgrNo> \r\n<ProductCtgrAttribute> \r\n<prdAttrCd>2000042</prdAttrCd> \r\n<prdAttrNm>Neck Style</prdAttrNm> \r\n<prdAttrNo>161075</prdAttrNo> \r\n<prdAttrVal>Neck style Value</prdAttrVal> \r\n</ProductCtgrAttribute> \r\n<ProductCtgrAttribute> \r\n<prdAttrCd>2000017</prdAttrCd> \r\n<prdAttrNm>Fabric</prdAttrNm> \r\n<prdAttrNo>161074</prdAttrNo> \r\n<prdAttrVal>Fabric Value</prdAttrVal> \r\n</ProductCtgrAttribute> \r\n<prdNm>Test Product - Do Not Buy This Items</prdNm> \r\n<advrtStmt>Hot Items Of The Month !!</advrtStmt> \r\n<orgnTypCd>03</orgnTypCd> \r\n<orgnNmVal>Other: China</orgnNmVal> \r\n<sellerPrdCd>SKU-00001</sellerPrdCd> \r\n<suplDtyfrPrdClfCd>01</suplDtyfrPrdClfCd> \r\n<prdStatCd>01</prdStatCd> \r\n<minorSelCnYn>Y</minorSelCnYn> \r\n<prdImage01> <![CDATA[http://soffice.11st.co.kr/img/layout/logo.gif]]> </prdImage01> \r\n<htmlDetail> <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar vestibulum diem elementum tempus.</p>]]> </htmlDetail> \r\n<selTermUseYn>N</selTermUseYn> \r\n<selPrc>50000</selPrc> \r\n<prdSelOty>150</prdSelOty> \r\n<d1vCnAreaCd>01</d1vCnAreaCd> \r\n<spplWyCd>01</spplNyCd> \r\n<d1vCstInstBasiCd>03</d1vCstInstBasiCd> \r\n<d1vCstl>2500</d1vCstl> \r\n<PrdFrD1vBasiAmt>50000</PrdFrD1vBasiAmt> \r\n<d1vCstPayTypCd>01</d1vCstPayTyped> \r\n<addrSeqOut>4</addrSeqOut> \r\n<addrSeqln>8</addrSeqln> \r\n<rtngdDlvCst>2500</rtngdOlvCst> \r\n<exchD1vCst>6000</exchDlvCst> \r\n<asDetail>Sorry. No after sales service for this product.</asDetail> \r\n<rtngExchDetail>Exchange Returns Information 070-7400-3719</rtngExchDetail> \r\n<company>Testing Manufacturer</company> \r\n<brand>Testing Brand</brand> \r\n<modelft>Testing Model</modelNm> \r\n<prcCmpExpYn>Y</prcCmpExpYn> \r\n</Product> \r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/prodservices/product",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"prodservices",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA rest/prodservices/product 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml Version=\"1.0\" encoding=\"UTF-8\"?> \r\n<Product> \r\n<selMnbdNckNm>EKI INRADI TESTING</selMnbdNckNm>\r\n<selMthdCd>01</selMthdCd> \r\n<dispCtgrNo>53</dispCtgrNo> \r\n<ProductCtgrAttribute> \r\n    <prdAttrCd>2000042</prdAttrCd> \r\n    <prdAttrNm>Neck Style</prdAttrNm> \r\n    <prdAttrNo>161075</prdAttrNo> \r\n    <prdAttrVal>Neck style Value</prdAttrVal> \r\n</ProductCtgrAttribute> \r\n<ProductCtgrAttribute> \r\n    <prdAttrCd>2000017</prdAttrCd> \r\n    <prdAttrNm>Fabric</prdAttrNm> \r\n    <prdAttrNo>161074</prdAttrNo> \r\n    <prdAttrVal>Fabric Value</prdAttrVal> \r\n</ProductCtgrAttribute> \r\n<prdNm>Test Product - Do Not Buy This Items</prdNm> \r\n<advrtStmt>Hot Items Of The Month !!</advrtStmt> \r\n<orgnTypCd>03</orgnTypCd> \r\n<orgnNmVal>Other: China</orgnNmVal> \r\n<sellerPrdCd>SKU-00001</sellerPrdCd> \r\n<suplDtyfrPrdClfCd>01</suplDtyfrPrdClfCd> \r\n<prdStatCd>01</prdStatCd> \r\n<minorSelCnYn>Y</minorSelCnYn> \r\n<prdImage01> <![CDATA[http://soffice.11st.co.kr/img/layout/logo.gif]]> </prdImage01> \r\n<htmlDetail> <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar vestibulum diem elementum tempus.</p>]]> </htmlDetail> \r\n<selTermUseYn>N</selTermUseYn> \r\n<selPrc>50000</selPrc> \r\n<prdSelOty>150</prdSelOty> \r\n<d1vCnAreaCd>01</d1vCnAreaCd> \r\n<spplWyCd>01</spplNyCd> \r\n<d1vCstInstBasiCd>03</d1vCstInstBasiCd> \r\n<d1vCstl>2500</d1vCstl> \r\n<PrdFrD1vBasiAmt>50000</PrdFrD1vBasiAmt> \r\n<d1vCstPayTypCd>01</d1vCstPayTyped> \r\n<addrSeqOut>4</addrSeqOut> \r\n<addrSeqln>8</addrSeqln> \r\n<rtngdDlvCst>2500</rtngdOlvCst> \r\n<exchD1vCst>6000</exchDlvCst> \r\n<asDetail>Sorry. No after sales service for this product.</asDetail> \r\n<rtngExchDetail>Exchange Returns Information 070-7400-3719</rtngExchDetail> \r\n<company>Testing Manufacturer</company> \r\n<brand>Testing Brand</brand> \r\n<modelft>Testing Model</modelNm> \r\n<prcCmpExpYn>Y</prcCmpExpYn> \r\n\r\n<paidSelPrc>25000</paidSelPrc>\r\n<exteriorSpecialNote>zasdasdasda</exteriorSpecialNote>\r\n</Product> \r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/prodservices/product",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"prodservices",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELEVENIA  rest/orderservices/orders?ordStat=202&dateFrom=2017/11/01&dateTo=2022/11/01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "openapikey",
+						"value": "721407f393e84a28593374cc2b347a98",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://api.elevenia.co.id/rest/orderservices/orders?ordStat=202&dateFrom=2017/11/01&dateTo=2022/11/01",
+					"protocol": "http",
+					"host": [
+						"api",
+						"elevenia",
+						"co",
+						"id"
+					],
+					"path": [
+						"rest",
+						"orderservices",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "ordStat",
+							"value": "202"
+						},
+						{
+							"key": "dateFrom",
+							"value": "2017/11/01"
+						},
+						{
+							"key": "dateTo",
+							"value": "2022/11/01"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
