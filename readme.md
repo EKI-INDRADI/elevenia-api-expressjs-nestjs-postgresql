@@ -8,7 +8,7 @@ https://github.com/EKI-INDRADI/eki-latihan-vm-alpine-docker-portable
 install Docker, Postgresql
 https://github.com/EKI-INDRADI/eki-latihan-docker-postgresql
 
-create database simple_pos
+create database rnd_product_services
 ```
 
 ## 2. install nodejs nodemon & nestjs
